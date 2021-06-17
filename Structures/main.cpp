@@ -16,6 +16,7 @@ struct Rectangle
 int main()
 {
     struct Rectangle r1 = {10, 5};
+    
     // printf("%d", sizeof(r1));
 
     r1.length = 15; //changing the value of length with dot operator

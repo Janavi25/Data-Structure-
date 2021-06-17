@@ -23,9 +23,8 @@ int main()
     Rectangle *p = &r;
 
     //when you use pointer then dot operator cannot
-
-    p->breadth = 2;
     p->length = 5;
+    p->breadth = 2;
 
     cout << p->length << endl;
     cout << p->breadth << endl;
