@@ -11,12 +11,10 @@ int main()
     {
         for (int j = 1; j <= i; j++)
         {
-            cout << "*";
+            cout << j << " ";
         }
-        cout<<endl;
+        cout << endl;
     }
-
- 
 
     return 0;
 }
